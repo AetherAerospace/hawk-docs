@@ -19,7 +19,7 @@
 
 project = 'AAE'
 copyright = '2022, Aether Aerospace Engineering'
-author = 'k1f0'
+author = 'k1f0, eriksimcic'
 
 # The full version, including alpha/beta/rc tags
 release = '1.0 HAWK'

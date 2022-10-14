@@ -21,5 +21,6 @@ Table of Contents
    :maxdepth: 3
    :numbered:
 
-   projectplan
+   hardware
+   software
    license

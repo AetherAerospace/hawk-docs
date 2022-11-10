@@ -17,12 +17,12 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'AAE'
-copyright = '2022, Aether Aerospace Engineering'
+project = 'AAI'
+copyright = '2022, Aether Aerospace Industries'
 author = 'k1f0, eriksimcic'
 
 # The full version, including alpha/beta/rc tags
-release = '1.0 HAWK'
+release = 'H.A.W.K'
 
 # -- General configuration
 

@@ -2,8 +2,8 @@
    :scale: 65%
    :align: center
 
-**Aether Aerospace Engineering**
-================================
+**Aether Aerospace Industries**
+===============================
 
 Team Members
       - Slama Felix

@@ -155,12 +155,6 @@ Wingmounts
     .. image:: /img/hardware/wm/overall_width.JPG
         :align: center
 
-Weight
-------
-
-    Will be added after printing and assembly is finished. Estimates based 
-    on experiences and slicer previews lie below 1.5 kg. 
-
 Aerodynamics
 ------------
 
@@ -221,72 +215,190 @@ Parts
 3D-printed Parts
 ^^^^^^^^^^^^^^^^
 
-:**Engine-Block**:
+.. list-table::
+   :widths: 75 25
+   :header-rows: 0
+   :align: left
 
-    - Engine-House Base
-    - Engine-House Top
-    - Engine Body
-    - Roof
-    - Tail-Connector Cable Cover
-    - Nose
-    - Nose Bottom
-    - Nose Roof
-    - Nozzle
+   * - **Engine-Block**
+     - 
 
-:**Tail**:
+   * - Engine-House Base
+     - 60g
 
-    - Tail
-    - Tail-Connector
-    - Tail-Bridge
-    - Tail Base
-    - Tail-Connector Fin
-    - Tail Fin
-    - Control-Surface Tail
-    - Control-Surface Elevator left
-    - Control-Surface Elevator right
+   * - Engine-House Top
+     - 101g
 
-:**Wing Mounts**:
+   * - Roof
+     - 
+  
+   * - Tail-Connector Cable Cover
+     -  
 
-    - Wing-Mount Front left
-    - Wing-Mound Middle left
-    - Wing-Mound Back left
-    - Wing-Mount Front right
-    - Wing-Mound Middle right
-    - Wing-Mound Back right
+   * - Nose
+     - 
 
-:**Wings**:
+   * - Nose Bottom
+     - 
 
-    - Wing-Base Front left
-    - Wing-Base Back left
-    - Wing-Middle Front left
-    - Wing-Middle Back left
-    - Wing-End Front left
-    - Wing-End Front back
-    - Winglet left
-    - Control-Surface Aileron left
-    - Wing-Base Front right
-    - Wing-Base Back right
-    - Wing-Middle Front right
-    - Wing-Middle Back right
-    - Wing-End Front right
-    - Wing-End Front right
-    - Winglet right
-    - Control-Surface Aileron right
+   * - Nose Roof
+     - 11 g
 
-:**Struts**:
+   * - Nozzle
+     - 152g
 
-    - Strut Inner Front left
-    - Strut Inner Back left
-    - Strut Outer Front left
-    - Strut Outer Front left 2
-    - Strut Outer Back left
-    - Strut Outer Back left 2
-    - Strut Inner Front back 
-    - Strut Inner Back back 
-    - Strut Outer Front back 
-    - Strut Outer Front  back 2
-    - Strut Outer Back back 
-    - Strut Outer Back  back 2
+   * - |
+     - |
+
+   * - **Tail**
+     - 
+
+   * - Tail
+     - 
+
+   * - Tail-Connector
+     -
+
+   * - Tail-Bridge
+     -
+    
+   * - Tail Base
+     - 16g
+    
+   * - Tail-Connector Fin
+     - 
+    
+   * - Tail Fin
+     -
+    
+   * - Control-Surface Tail
+     - 18g
+    
+   * - Control-Surface Elevator left
+     - 51g
+    
+   * - Control-Surface Elevator right
+     - 51g
+
+   * - |
+     - |
+   
+   * - **Wing-Mount**
+     -
+
+   * - Wing-Mount Front left
+     - 94g
+   
+   * - Wing-Mound Middle left
+     -
+   
+   * - Wing-Mound Back left - 43
+     -
+   
+   * - Wing-Mount Front right
+     - 98g
+   
+   * - Wing-Mound Middle right
+     -
+   
+   * - Wing-Mound Back right -43
+     -
+
+   * - |
+     - |
+   
+   * - **Wings**
+     -
+
+   * - Wing-Base Front left
+     - 
+
+   * - Wing-Base Back left
+     -
+
+   * - Wing-Middle Front left
+     -    
+
+   * - Wing-Middle Back left
+     -
+
+   * - Wing-End Front left
+     -
+
+   * - Wing-End Front back
+     -
+
+   * - Winglet left
+     - 72g
+
+   * - Control-Surface Aileron left
+     -
+
+   * - Wing-Base Front right
+     -
+
+   * - Wing-Base Back right
+     -
+
+   * - Wing-Middle Front right
+     -
+
+   * - Wing-Middle Back right
+     -
+
+   * - Wing-End Front right
+     -
+
+   * - Wing-End Front right
+     -
+
+   * - Winglet right
+     - 70g
+
+   * - Control-Surface Aileron right
+     -
+
+   * - |
+     - |
+
+   * - **Struts**
+     -
+
+   * - Strut Inner Front left
+     -
+  
+   * - Strut Inner Back left
+     -
+   
+   * - Strut Outer Front left
+     -
+  
+   * - Strut Outer Front left 2
+     -
+  
+   * - Strut Outer Back left
+     -
+  
+   * - Strut Outer Back left 2
+     -
+  
+   * - Strut Inner Front back 
+     -
+  
+   * - Strut Inner Back back 
+     -
+ 
+   * - Strut Outer Front back 
+     -
+  
+   * - Strut Outer Front  back 2
+     -
+   
+   * - Strut Outer Back back 
+     -
+ 
+   * - Strut Outer Back  back 2
+     -
 
 Electronics
 ^^^^^^^^^^^

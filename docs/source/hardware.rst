@@ -6,12 +6,6 @@ Hardware
 
     - `HAWK Hardware <https://github.com/AetherAerospace/hawk-hardware>`_
 
-Design Considerations
----------------------
-
-    Our designs are based on current and past experiences we made with
-    flying objects and aerodynamic design.
-
 Size
 ----
 
@@ -208,6 +202,47 @@ Aerodynamic Concepts
 
     .. image:: /img/aerodynamics/wingwash.JPG
         :align: center
+
+:**Center of Gravity**:
+
+    Calculating the center of gravity is not effective because the infill of the individual parts is not consistent. In order to solve this problem, the center of gravity can be shifted by moving the battery pack. We can still estimate the center of gravity to be inside an expectable range close to the center of lift. Adding the FTS will also further influence the center of gravity. 
+    
+    .. image:: /img/aerodynamics/center_of_gravity.JPG
+        :align: center
+    
+    The estimated center of gravity
+
+    
+    .. image:: /img/aerodynamics/akku_trench.JPG
+        :align: center
+    
+    The battery-gap (blue)
+
+    For an extensive but simple explanation of the effects of the center of gravity visit https://www.boldmethod.com/learn-to-fly/performance/what-effect-does-center-of-gravity-have-on-your-airplanes-performance/#:~:text=Your%20airplane%20balances%20on%20its,within%20your%20aircraft's%20CG%20limits.
+
+:**Body form**:
+
+    The engine block uses a blended body design. This means that there is no clear cut between wing and body. The engine body is designed in a way that contributes to lift production. There are large, non-lift producing objects, manly the tail, therefore the design is not a flying wing.
+
+    .. image:: /img/hardware/engine_block/engine_block_side.JPG
+      :align: center 
+
+Assembly
+--------
+
+Assembly methods
+^^^^^^^^^^^^^^^^
+
+  We connect the individual parts by "welding" the 3d printed parts together. Using a soldering iron, the connecting surfaces are melted together. Any irregularities caused by this method are removed using sandpaper.
+
+  An alternative to this approach is using plastic glue. We use Revels Contact Provisional Glue. Downsides to both methods are the emerging fumes.
+
+  Whilst the engine block, tail and wing mounds are entirely 3d printed, the wings are made using a "skeleton" and foil. This minimizes potential repair times and costs. We do see structural failure of the 3d printed parts as a risk, given the structural integrity and weight of the parts.
+
+Assembly pictures
+^^^^^^^^^^^^^^^^^
+
+  Will be added after assembly is complected and pictures are taken.
 
 Parts
 -----

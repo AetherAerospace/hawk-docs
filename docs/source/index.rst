@@ -9,7 +9,7 @@ Team Members
       - Slama Felix
       - Teppan Fabian
       - Simcic Erik
-      - Birnbacher Maximillian
+      - Birnbacher Maximilian
 
 Project Supervisor
       - Prof. Reiner Rabensteiner
@@ -18,9 +18,11 @@ Table of Contents
 -----------------
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 4
    :numbered:
 
+   about
    hardware
    software
    license
+

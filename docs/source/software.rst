@@ -10,18 +10,20 @@ Software
 
 Flightcode
 ^^^^^^^^^^
+Fabian Teppan
 
     This refers to the complete onboard logic that is flashed on the
     onboard ESP32-Microcontroller.
 
 LoRa Transmit/Receive (lTRX)
 """"""""""""""""""""""""""""
+Fabian Teppan
 
     This Project uses LoRa to handle the communication between air and ground.
     For convenience we use the excellent prebuilt LoRa Library by
     `sandeepmistry <https://github.com/sandeepmistry/arduino-LoRa>`_
 
-The link code adheres to a strict packet formatting guidline which
+The link code adheres to a strict packet formatting guideline which
 looks something like this:
 
 .. code-block::
@@ -56,6 +58,7 @@ packet any further:
 
 Important Packet Types
 """"""""""""""""""""""
+Fabian Teppan
 
 The flightcode mainly receives packets.
 
@@ -85,7 +88,7 @@ Supported Packet Types include / will include:
 - ID 20-29 contain GPS relevant data
 - ID 30-39 contain control values
 
-    Definitions are still subject to change!
+Definitions are still subject to change!
 
 Servo Controls
 """"""""""""""
@@ -114,6 +117,7 @@ PID-Controller
 
 Onboard Telemetry
 """""""""""""""""
+Maximilian Birnbacher
 
 The onboard telemetry is designed to function as a failsafe to get data if the aircraft crashes or the connection is lost.
 The code (Telemetry.cpp) get sensors and position data to generates a CSV file written to an SD-Card module.
@@ -148,6 +152,7 @@ After iterating through the vector and writing to the csv, the file is closed an
 
 Groundcode - ESP32-Onboard
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+Fabian Teppan
 
     This is housed in a subfolder in the main `Groundstation Repository
     <https://github.com/AetherAerospace/hawk-groundcode>`_
@@ -155,6 +160,7 @@ Groundcode - ESP32-Onboard
 
 Important Packet Types
 """"""""""""""""""""""
+Fabian Teppan
 
 The groundstation mainly crafts packets.
 
@@ -184,12 +190,14 @@ Following packet types are implemented/used as of now:
 
 Groundcode - WebControlPanel (WCP)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Maximilian Birnbacher
 
     This is the main Interface that communicates with the
     ESP32-Microcontroller Groundstation.
 
 Interface
 """""""""
+Maximilian Birnbacher
 
 The WCP visualizes route, flight- and no-flight-zones. Usings the buttons on the left side of the screen, you can upload a route to the aircraft, initiate launch, or abort the mission with the FTS (Flight-Terminate-System). Signal-strength and the picked waypoints are also shown to maintain transparency for the operator and help to complete the last pre-flight check. The WCP is using a map to visualize the route, flight- and no-flight-zones.
 
@@ -205,6 +213,7 @@ By pressing the line button on the map navigation column, you can draw a line. T
 
 GPS Waypoint Handling
 """""""""""""""""""""
+Maximilian Birnbacher
 
 Set waypoints are read by using draw.getAll() and further processed by parsing the waypoints to generate a GPX file. 
 

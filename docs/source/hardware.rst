@@ -8,12 +8,14 @@ Hardware
 
 Size
 ----
+Erik Simcic
 
     The size is mostly determined by the decision to use two engines and 
     the rotor-circumference.
 
 Overall size
 ^^^^^^^^^^^^
+Erik Simcic
 
 :**Width**:
 
@@ -38,6 +40,7 @@ Overall size
     
 Body
 ^^^^
+Erik Simcic
 
 :**Engine-Block**:
 
@@ -89,6 +92,7 @@ Body
 
 Tail
 ^^^^
+Erik Simcic
 
 :**Overall length**:
 
@@ -113,6 +117,7 @@ Tail
 
 Wingmounts
 ^^^^^^^^^^
+Erik Simcic
 
 :**Overall length**:
 
@@ -151,9 +156,11 @@ Wingmounts
 
 Aerodynamics
 ------------
+Erik Simcic
 
 Aerodynamic Concepts
 ^^^^^^^^^^^^^^^^^^^^
+Erik Simcic
 
 :**Wing configuration**:
 
@@ -229,9 +236,11 @@ Aerodynamic Concepts
 
 Assembly
 --------
+Erik Simcic
 
 Assembly methods
 ^^^^^^^^^^^^^^^^
+Erik Simcic
 
   We connect the individual parts by "welding" the 3d printed parts together. Using a soldering iron, the connecting surfaces are melted together. Any irregularities caused by this method are removed using sandpaper.
 
@@ -239,16 +248,22 @@ Assembly methods
 
   Whilst the engine block, tail and wing mounds are entirely 3d printed, the wings are made using a "skeleton" and foil. This minimizes potential repair times and costs. We do see structural failure of the 3d printed parts as a risk, given the structural integrity and weight of the parts.
 
-Assembly pictures
+Assembly progress
 ^^^^^^^^^^^^^^^^^
+Erik Simcic
 
-  Will be added after assembly is complected and pictures are taken.
+  Complete but unrefined assembly of the engine block and wing mounts
+
+    .. image:: /img/presentation/aether_hawk_real.jpg
+      :align: center
 
 Parts
 -----
+Erik Simcic
 
 3D-printed Parts
 ^^^^^^^^^^^^^^^^
+Erik Simcic
 
 .. list-table::
    :widths: 75 25
@@ -437,6 +452,7 @@ Parts
 
 Electronics
 ^^^^^^^^^^^
+Fabian Teppan
 
 - 2x ESP32 with LoRa integrated
 - 2x Aikon 30A ESC 2-4S
@@ -446,9 +462,11 @@ Electronics
 
 Previous builds
 ---------------
+Erik Simcic
 
 Concept Trailer
 ^^^^^^^^^^^^^^^
+Erik Simcic
 
 AETHER HAWK started with a concept trailer build and animated in early september 2022. 
 The idea behind this design was reusing the old AETHER HEAVY rocket as engine and build 

@@ -1,5 +1,6 @@
 About this Project
-------------------
+==================
+*~ teppanf, simcice, slamaf, birnbacm*
 
 .. image /img/presentation/aether_hawk.png
 
@@ -16,6 +17,9 @@ The Design is done completely from scratch and based on previous experience with
 and Fusion360 for the Design process and Blender for rendering.
 
   Flightime will be about 15-20 minutes, depending on how much we push the plane and weather conditions.
+
+Credits
+-------
 
 Finally we would like to mention and thank the projects below. Without them, our project wouldn't be possible.
 

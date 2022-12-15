@@ -19,7 +19,7 @@
 
 project = 'AAI'
 copyright = '2022, Aether Aerospace Industries'
-author = 'k1f0, eriksimcic'
+author = 'birnbacm, slamaf, teppanf, eriksimcice'
 
 # The full version, including alpha/beta/rc tags
 release = 'H.A.W.K'

@@ -8,14 +8,10 @@ Hardware
 
 Size
 ----
-Erik Simcic
+*~ simcice*
 
     The size is mostly determined by the decision to use two engines and 
     the rotor-circumference.
-
-Overall size
-^^^^^^^^^^^^
-Erik Simcic
 
 :**Width**:
 
@@ -37,10 +33,13 @@ Erik Simcic
     
     .. image:: /img/hardware/overall/overall_side.JPG
         :align: center
-    
+
 Body
+----
+*~ simcice*
+
+Main
 ^^^^
-Erik Simcic
 
 :**Engine-Block**:
 
@@ -92,7 +91,6 @@ Erik Simcic
 
 Tail
 ^^^^
-Erik Simcic
 
 :**Overall length**:
 
@@ -115,9 +113,8 @@ Erik Simcic
     .. image:: /img/hardware/tail/overall_width.JPG
         :align: center  
 
-Wingmounts
-^^^^^^^^^^
-Erik Simcic
+Wings
+^^^^^
 
 :**Overall length**:
 
@@ -156,11 +153,10 @@ Erik Simcic
 
 Aerodynamics
 ------------
-Erik Simcic
+*~ simcice*
 
-Aerodynamic Concepts
-^^^^^^^^^^^^^^^^^^^^
-Erik Simcic
+Concepts
+^^^^^^^^
 
 :**Wing configuration**:
 
@@ -236,11 +232,10 @@ Erik Simcic
 
 Assembly
 --------
-Erik Simcic
+*~ simcice*
 
-Assembly methods
-^^^^^^^^^^^^^^^^
-Erik Simcic
+Methods
+^^^^^^^
 
   We connect the individual parts by "welding" the 3d printed parts together. Using a soldering iron, the connecting surfaces are melted together. Any irregularities caused by this method are removed using sandpaper.
 
@@ -248,22 +243,17 @@ Erik Simcic
 
   Whilst the engine block, tail and wing mounds are entirely 3d printed, the wings are made using a "skeleton" and foil. This minimizes potential repair times and costs. We do see structural failure of the 3d printed parts as a risk, given the structural integrity and weight of the parts.
 
-Assembly progress
-^^^^^^^^^^^^^^^^^
-Erik Simcic
+Progress
+^^^^^^^^
 
   Complete but unrefined assembly of the engine block and wing mounts
 
-    .. image:: /img/presentation/aether_hawk_real.jpg
-      :align: center
+  .. image:: /img/presentation/aether_hawk_real.jpg
+    :align: center
 
 Parts
 -----
-Erik Simcic
-
-3D-printed Parts
-^^^^^^^^^^^^^^^^
-Erik Simcic
+*~ simcice*
 
 .. list-table::
    :widths: 75 25
@@ -451,8 +441,8 @@ Erik Simcic
      -
 
 Electronics
-^^^^^^^^^^^
-Fabian Teppan
+-----------
+*~ teppanf*
 
 - 2x ESP32 with LoRa integrated
 - 2x Aikon 30A ESC 2-4S
@@ -460,13 +450,13 @@ Fabian Teppan
 - 1x Generic 3S LiPo
 - 4x Generic Servo
 
-Previous builds
+Previous Builds
 ---------------
-Erik Simcic
+*~ simcice*
 
 Concept Trailer
-^^^^^^^^^^^^^^^
-Erik Simcic
+---------------
+*~ simcice*
 
 AETHER HAWK started with a concept trailer build and animated in early september 2022. 
 The idea behind this design was reusing the old AETHER HEAVY rocket as engine and build 

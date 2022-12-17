@@ -151,6 +151,46 @@ Wings
     .. image:: /img/hardware/wm/overall_width.JPG
         :align: center
 
+:**Aileron Design**:
+
+    231.090mm Overall
+    114.86mm Control Surface (right half)
+
+    .. image:: /img/hardware/wings/aileron.PNG
+        :align: center
+
+  Simply put, the ailerons are two control-surfaces at the end of each wing. The main function of these control-surfaces is rolling the along it's flight vector. In Flying Wing designs, the ailerons additionally fill the role of the elevators, meaning that they control the pitch of the aircraft.
+
+  In order to move the control surface, a Servo is placed in the 25mm wide cutout that pushes or pulls the control surface. 
+
+:**New wing design**:
+
+    921.713mm Overall
+    823.380mm Without control-surfaces
+
+    .. image:: /img/hardware/wings/new_wings.PNG
+        :align: center
+
+
+    The wing itself is designed using two wing-segments as start and end point and the "loft" function. The loft function connects the to points creating the volume of the wing. Changing the start and end profiles of the loft function softens the volume from a straight connection to a more organic shape further enlarging the lift area. 
+
+    .. image:: /img/hardware/wings/loft.PNG
+        :align: center
+
+
+  Aerodynamically speaking, the new wings are identical to the previous ones. They have improved internal struts, adding to the overall stability and ease of construction. 
+
+    .. image:: /img/hardware/wings/struts.PNG
+      :align: center
+  
+  These new struts are build using a function called Booleans. We use a "cutter" to define which areas of the wing should be remail while all others are removed. The boolean calculates which areas of the to objects overlap and remove the rest. The cutter has the shape similar to a comb, giving us straps with equal distance and with. 
+
+    .. image:: /img/hardware/wings/boolean.PNG
+      :align: center
+
+  We use the same technique to cut out the front and back connectors. 
+
+
 Aerodynamics
 ------------
 *~ simcice*

@@ -2,8 +2,9 @@
    :scale: 65%
    :align: center
 
+*******************************
 **Aether Aerospace Industries**
-===============================
+*******************************
 
 Team Members
       - Slama Felix
@@ -15,15 +16,13 @@ Project Supervisor
       - Prof. Reiner Rabensteiner
 
 Table of Contents
------------------
+=================
 
 .. toctree::
    :maxdepth: 4
    :numbered:
 
-   about
    hardware
    software
+   about
    license
-   groundcode
-
